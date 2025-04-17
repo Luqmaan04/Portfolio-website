@@ -1,0 +1,107 @@
+/* Google Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #0a1f1c; /* BMW dark green */
+    color: #e0e0e0; /* Light silver text */
+  }
+  
+  /* Header */
+  header {
+    background-color: #103b34;
+    color: #e0e0e0;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #9acfc4; /* Soft mint-silver hover */
+  }
+  
+  /* Intro Section */
+  .intro {
+    background: #14352f;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #9acfc4;
+  }
+  
+  .intro h2 {
+    color: #9acfc4;
+  }
+  
+  /* Projects Section */
+  .projects-preview {
+    padding: 40px 20px;
+  }
+  
+  .projects-preview h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #9acfc4;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-grid article {
+    background-color: #1e3c36;
+    padding: 20px;
+    width: 250px;
+    border: 1px solid #2f4f4f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-grid article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  }
+  
+  .project-grid article h3 {
+    color: #9acfc4;
+  }
+  
+  .project-grid article a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #9acfc4;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #103b34;
+    color: #e0e0e0;
+  }
+  
